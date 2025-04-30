@@ -2,7 +2,7 @@
 # Health regression model.
 
 # Project overview.
-The goal of this project is to predict the insurance premium a customer should pay based on factors such as age, sex, pre-existing health conditions and location. This is a supervised regression problem where I aim to develop a model that can accurately estimate the premium.
+The goal of this project is to predict the insurance premium a customer should pay based on factors such as age, sex, pre-existing health conditions and location. This is a supervised regression problem where I aim to develop a model that can accurately estimate the premium and create an easy to use app that can help individuals estimate what premiums they should expect to pay based on the input features.
 
 [MyhealthPredictionApp](https://health-insurance-regression-dectbgpdzz3dxxjwguaz5f.streamlit.app/)
 
