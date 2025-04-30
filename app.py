@@ -14,6 +14,7 @@ st.markdown("### Enter the details below to predict insurance costs.")
 # Input fields
 st.write("Min Age: 3 years, Max Age: 90 years")
 age = st.number_input("Age", min_value=3, max_value=90)
+
 gender = st.selectbox("Sex", ("Female", "Male"))
 st.write("Min BMI: 14.0, Max BMI: 54.0")
 bmi = st.number_input("BMI (Body Mass Index)", min_value=14.0, max_value=54.0, step=0.1)
