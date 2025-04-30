@@ -11,4 +11,5 @@ The dataset was well-prepared with no missing values, inconsistencies or incorre
 The dataset was split into features (X) and target (y). Feature selection was performed using a variance threshold, confirming no significant collinearity issues so all features were retained. I tested various regression algorithms, all of which performed well on both the training and testing datasets, indicating that overfitting was not an issue. To further reduce model bias, I utilized XGBoost and conducted grid search to fine-tune the hyperparameters. Finally, I implemented cross-validation across multiple folds to ensure the model’s ability to generalize to unseen data, and the results confirmed that the model performed well.
 
 # Deployment.
-The model was saved as a pickle file, enabling seamless deployment to a production environment for real-time predictions.
+The model was saved as a pickle file, enabling seamless deployment. I deployed it using streamlit to make prdictions
+[MyhealthPredictionApp](https://health-insurance-regression-dectbgpdzz3dxxjwguaz5f.streamlit.app/)
